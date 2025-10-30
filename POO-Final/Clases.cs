@@ -27,7 +27,7 @@ namespace POO_Final
         private class Administrador : Usuario {
             public Administrador(int id, string Nombre, string Rol, string Contraseña) : base(id, Nombre, Rol, Contraseña)
             {
-
+                Rol = "Administrador";
             }
 
         }
@@ -35,7 +35,7 @@ namespace POO_Final
         private class Vendedor : Usuario { 
             public Vendedor(int id, string Nombre, string Rol, string Contraseña) : base(id, Nombre, Rol, Contraseña)
             {
-
+                Rol = "Vendedor";
             }
         }
 
