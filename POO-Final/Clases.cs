@@ -43,7 +43,7 @@ namespace POO_Final
         {
             public Administrador(int id, string Nombre, string Rol, string Contraseña) : base(id, Nombre, Rol, Contraseña)
             {
-
+                Rol = "Administrador";
             }
             public void CrearEspectaculo(Espectaculo es)
             {
@@ -67,7 +67,7 @@ namespace POO_Final
         {
             public Vendedor(int id, string Nombre, string Rol, string Contraseña) : base(id, Nombre, Rol, Contraseña)
             {
-
+                Rol = "Vendedor";
             }
 
             public void RegistrarVenta(Venta v)
